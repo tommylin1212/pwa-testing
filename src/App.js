@@ -15,7 +15,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Blarg!!
+            This should push an update to the app.
           </a>
         </header>
       </div>
