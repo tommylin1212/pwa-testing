@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "PWA Testing",
+  "name": "PWA Testbed for new Mobile Platform",
   "icons": [
     {
       "src": "favicon.ico",
