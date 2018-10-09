@@ -11,7 +11,7 @@ workbox.routing.registerRoute(
     workbox.strategies.networkFirst()
   );
   workbox.routing.registerRoute(
-    new RegExp('*\.html'),
+    new RegExp('.*\.html'),
     workbox.strategies.networkFirst()
   );
   workbox.routing.registerRoute(
