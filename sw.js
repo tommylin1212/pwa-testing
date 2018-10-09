@@ -7,6 +7,6 @@ if (workbox) {
 }
 
 workbox.routing.registerRoute(
-    new RegExp('.*\.js'),
+    new RegExp('%PUBLIC_URL%.*\.js'),
     workbox.strategies.cacheFirst()
   );
