@@ -8,5 +8,5 @@ if (workbox) {
 
 workbox.routing.registerRoute(
     new RegExp('.*'),
-    workbox.strategies.staleWhileRevalidate()
+    workbox.strategies.cacheFirst()
   );
