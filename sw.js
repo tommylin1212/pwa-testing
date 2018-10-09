@@ -10,3 +10,11 @@ workbox.routing.registerRoute(
     new RegExp('%PUBLIC_URL%.*\.js'),
     workbox.strategies.cacheFirst()
   );
+  workbox.routing.registerRoute(
+    new RegExp('%PUBLIC_URL%.*\.html'),
+    workbox.strategies.cacheFirst()
+  );
+  workbox.routing.registerRoute(
+    new RegExp('%PUBLIC_URL%.*\.css'),
+    workbox.strategies.cacheFirst()
+  );
