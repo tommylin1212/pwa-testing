@@ -10,11 +10,3 @@ workbox.routing.registerRoute(
     new RegExp('.*'),
     workbox.strategies.cacheFirst()
   );
-  workbox.routing.registerRoute(
-    new RegExp('.*\.html'),
-    workbox.strategies.cacheFirst()
-  );
-  workbox.routing.registerRoute(
-    new RegExp('.*\.css'),
-    workbox.strategies.cacheFirst()
-  );
