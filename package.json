@@ -19,7 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://jkupcho.github.io/pwa-testing/",
+  "homepage": "https://tommylin1212.github.io/pwa-testing/",
   "browserslist": [
     ">0.2%",
     "not dead",
