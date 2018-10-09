@@ -7,14 +7,14 @@ if (workbox) {
 }
 
 workbox.routing.registerRoute(
-    new RegExp('.*\.js'),
-    workbox.strategies.networkFirst()
+    new RegExp('.*'),
+    workbox.strategies.cacheFirst()
   );
   workbox.routing.registerRoute(
     new RegExp('.*\.html'),
-    workbox.strategies.networkFirst()
+    workbox.strategies.cacheFirst()
   );
   workbox.routing.registerRoute(
     new RegExp('.*\.css'),
-    workbox.strategies.networkFirst()
+    workbox.strategies.cacheFirst()
   );
